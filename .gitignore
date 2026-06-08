@@ -1,13 +1,15 @@
-# Python
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-.venv/
+
+# Python env
 venv/
+.venv/
 env/
 
-# Node / frontend
+# Frontend dependencies/build
 node_modules/
 dist/
 .vite/
@@ -16,14 +18,14 @@ dist/
 .idea/
 .vscode/
 
-# Database and runtime data
+# Runtime data / privacy
 *.db
 temp_data/
 识别器/
 *.yml
 *.yaml
 
-# Model weights / exported models
+# Model weights
 *.pth
 *.pth.tar
 *.pt
