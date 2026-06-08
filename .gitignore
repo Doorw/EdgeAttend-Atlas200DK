@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Node / frontend
+node_modules/
+dist/
+.vite/
+
+# IDE
+.idea/
+.vscode/
+
+# Database and runtime data
+*.db
+temp_data/
+识别器/
+*.yml
+*.yaml
+
+# Model weights / exported models
+*.pth
+*.pth.tar
+*.pt
+*.onnx
+*.om
+
+# System
+.DS_Store
+Thumbs.db
