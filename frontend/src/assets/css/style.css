@@ -1,0 +1,22 @@
+/* src/assets/css/style.css */
+/* 全局样式重置 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 基础样式 */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+/* 响应式布局适配 */
+@media (max-width: 768px) {
+    .result-content {
+        grid-template-columns: 1fr;
+    }
+}
